@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 360px) {
+
+    .container {width: 100%;}
+    header {width: 100%; display: flex; flex-wrap: wrap; z-index: 0; padding: 0;}
+    .navNumero1 {width: 100%; display: flex;  }
+    .linksHtml {width: 100%; display:flex; flex-wrap: wrap;  }
+    .menuItem {color: black; display: flex;}
+    .artB {display: flex; flex-wrap: wrap;}
+    table { width: 50%; border-left: 0px; }
+    td, th { flex-direction:row; justify-content: flex-start;}
+    .imagenFacebook { width: 30px; height: 30px; display: inline-block; position: absolute; top: 10px; left: 290px}
+  .imagenInstagram { width: 30px; height: 30px; display: inline-block; position: absolute; top: 10px; left: 330px;}
+  footer {width: 100%; background-color: #333; height: 100%;}
+}
