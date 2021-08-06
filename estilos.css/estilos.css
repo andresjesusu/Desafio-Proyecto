@@ -249,15 +249,19 @@ main .indexH {
 main .imagenPicadas {
   width: 100%;
   height: auto;
-  -webkit-transition: heigh 1s,  width 1s;
-  transition: heigh 1s,  width 1s;
+  -webkit-transition: heigh 1s, 
+ width 1s;
+  transition: heigh 1s, 
+ width 1s;
 }
 
 main .imagenPicadas2 {
   width: 100%;
   height: auto;
-  -webkit-transition: heigh 1s,  width 1s;
-  transition: heigh 1s,  width 1s;
+  -webkit-transition: heigh 1s, 
+ width 1s;
+  transition: heigh 1s, 
+ width 1s;
 }
 
 main .imagenPicadas2:hover {

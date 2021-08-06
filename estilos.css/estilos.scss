@@ -21,12 +21,18 @@ h1 {
 
 .hLogo:hover {text-decoration: none; }
     
-
+.imagenFacebook { 
+    width: 40px; height: 40px; 
+    transition: heigh 1s, width 1s;
+    margin-top: 4px;}
 .imagenInstagram { 
     width: 40px; height: 40px;  
     transition: heigh 1s, width 1s;
     margin-top: 4px;}
 .imagenInstagram:hover {
+    height: 42px; 
+    width: 43px;}
+.imagenFacebook:hover {
     height: 42px; 
     width: 43px;}
 .contacto {
