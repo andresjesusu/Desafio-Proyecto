@@ -1,5 +1,4 @@
-@import "picadas";
-@import "nosotros";
+@import "picadas","nosotros";
 header{
     position:fixed;
     z-index: 5;
@@ -81,12 +80,8 @@ height: 48px;}
 .linksHtml .menuItem:hover .ulNav {
     display: block;}
 .n1 {
-height: 55px;
-background-color: rgba(0, 0, 0, 0.404);
-border-radius: 20px 10px 50px 30px;
--webkit-border-radius: 20px 10px 50px 30px;
--moz-border-radius: 20px 10px 50px 30px;
-border: 6px outset rgba(209, 145, 209, 0.329);}
+height: 52px;
+background-color: rgba(0, 0, 0, 0.404);}
 
     
   
@@ -280,6 +275,8 @@ footer {
     background-color: #333;
     height: 100px; font-size: 15px;
     text-decoration: none;
+
+.footer1 
 .imagenF {
     width: 30px; 
     height: 30px; 

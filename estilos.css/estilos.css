@@ -1,10 +1,62 @@
-.loteP {
-  border: 1px solid red;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.imagenesSP {
+  width: 395px;
+  height: 360px;
 }
 
-.imagenesSP {
-  width: 100px;
-  height: 100px;
+.cF {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.topH {
+  text-align: center;
+}
+
+h6 {
+  color: #4141bd;
+}
+
+.img-responsive {
+  width: 916px;
+  height: 155px;
+}
+
+.slogan {
+  font-family: "open sans",arial, sans sans-serif;
+  font-size: 36px;
+}
+
+h6 {
+  font-family: "open sans", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.h2Picada {
+  font-size: 35px;
+  font-family: "open sans", Arial, sans-serif;
+}
+
+.listaP {
+  font-size: 17px;
+  font-family: "open sans",arial, sans-serif;
+  font-weight: bold;
+}
+
+.sucursalesH {
+  font-size: 50x;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
 }
 
 .pN {
@@ -141,12 +193,8 @@ header .linksHtml .menuItem:hover .ulNav {
 }
 
 header .n1 {
-  height: 55px;
+  height: 52px;
   background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 20px 10px 50px 30px;
-  -webkit-border-radius: 20px 10px 50px 30px;
-  -moz-border-radius: 20px 10px 50px 30px;
-  border: 6px outset rgba(209, 145, 209, 0.329);
 }
 
 body {
@@ -249,19 +297,15 @@ main .indexH {
 main .imagenPicadas {
   width: 100%;
   height: auto;
-  -webkit-transition: heigh 1s, 
- width 1s;
-  transition: heigh 1s, 
- width 1s;
+  -webkit-transition: heigh 1s,  width 1s;
+  transition: heigh 1s,  width 1s;
 }
 
 main .imagenPicadas2 {
   width: 100%;
   height: auto;
-  -webkit-transition: heigh 1s, 
- width 1s;
-  transition: heigh 1s, 
- width 1s;
+  -webkit-transition: heigh 1s,  width 1s;
+  transition: heigh 1s,  width 1s;
 }
 
 main .imagenPicadas2:hover {

@@ -1,4 +1,18 @@
-.loteP {border: 1px solid red;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.imagenesSP {width: 395px;
+height: 360px;}
 
-.imagenesSP {width: 100px;
-height: 100px;}
+.cF {display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; }
+.topH {text-align: center;}
+h6 {color: rgb(65, 65, 189);}
+
+.img-responsive {width: 916px; height: 155px;}
+
+.slogan {font-family: "open sans",arial, sans sans-serif; font-size: 36px;}
+h6 {font-family: "open sans", Arial, sans-serif; text-transform: uppercase;}
+.h2Picada {font-size: 35px; font-family: "open sans", Arial, sans-serif;}
+.listaP {font-size: 17px; font-family: "open sans",arial, sans-serif; font-weight:bold;}
+
+
+// ESTO ES PARA LA SECCIONES "SUCURSALES"------!>
+.sucursalesH {font-size: 50x; text-transform: uppercase; background-color: black; color: white;}
