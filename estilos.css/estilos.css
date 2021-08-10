@@ -59,21 +59,6 @@ h6 {
   color: white;
 }
 
-.pN {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  text-align: justify;
-}
-
-.accordion {
-  background-color: turquoise;
-}
-
-.azulN {
-  background-color: turquoise;
-}
-
 header {
   position: fixed;
   z-index: 5;
@@ -308,16 +293,6 @@ main .imagenPicadas2 {
   transition: heigh 1s,  width 1s;
 }
 
-main .imagenPicadas2:hover {
-  height: 400px;
-  width: 600px;
-}
-
-main .imagenPicadas:hover {
-  height: 300px;
-  width: 500px;
-}
-
 main .sectionB {
   width: 80%;
   margin: 2em auto;
@@ -498,7 +473,8 @@ footer {
   text-decoration: none;
 }
 
-footer .imagenF {
+footer .footer1
+.imagenF {
   width: 30px;
   height: 30px;
   display: inline-block;

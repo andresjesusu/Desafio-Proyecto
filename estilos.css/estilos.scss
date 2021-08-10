@@ -142,6 +142,8 @@ text-align: justify;}
 .indexH {
     animation-duration: 3s; 
     animation-name: aparecer;}
+
+    // <!------ Animacion de Header ------!>
 @keyframes aparecer {
       0% {opacity: 0;}
       100% {opacity: 1;}
@@ -156,12 +158,12 @@ text-align: justify;}
     height: auto; 
     transition: heigh 1s, 
     width 1s;}
-.imagenPicadas2:hover {
-    height: 400px; 
-    width: 600px;}
-.imagenPicadas:hover {
-    height: 300px; 
-    width: 500px;}
+// .imagenPicadas2:hover {
+//     height: 400px; 
+//     width: 600px;}
+// .imagenPicadas:hover {
+//     height: 300px; 
+//     width: 500px;}
 .sectionB {
     width: 80%;
     margin: 2em auto;}
@@ -286,7 +288,7 @@ footer nav {
     text-align: center; 
     background-color: transparent;
 text-decoration: none;}
-
+// APLICACION DE BEM -----------!>
 .header0__logo--color{
         color: aquamarine;
     }
