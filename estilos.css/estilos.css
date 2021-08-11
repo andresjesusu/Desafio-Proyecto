@@ -455,6 +455,10 @@ main .uClass {
   margin-left: 50px;
 }
 
+main .mapaR {
+  margin-left: 90px;
+}
+
 a {
   color: #fff;
   text-decoration: none;

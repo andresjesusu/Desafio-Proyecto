@@ -3,7 +3,8 @@
 
     header {position: absolute; width: 100%; height: 100px;}
   .menuItem {font-size: 2px;}
-  .mapaR {width: 200px; width: 150px;}
+  .mapaR {width: 300px; width: 250px; margin-right: 90px;}
+  .formR {margin-right: 100px;}
     .carouselR {margin-top: 1300px;}
     .container {width: 100%;}
     header {width: 100%; display: flex; flex-wrap: wrap; z-index: 0; padding: 0;}
