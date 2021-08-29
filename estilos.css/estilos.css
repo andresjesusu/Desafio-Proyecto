@@ -200,7 +200,7 @@ main #demo {
 
 main .captionC {
   font-family: 'dancing script';
-  font-size: 50px;
+  font-size: 40px;
   color: black;
   background-color: rgba(255, 0, 0, 0.514);
   font-weight: 800;
@@ -208,7 +208,7 @@ main .captionC {
 
 main .captionCc {
   font-family: 'dancing script';
-  font-size: 40px;
+  font-size: 30px;
   color: black;
   background-color: rgba(255, 0, 0, 0.514);
   font-weight: 600;
