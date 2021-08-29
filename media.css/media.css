@@ -50,7 +50,9 @@ header nav ul li a:hover {display: block;
 		margin:0;
 		position: fixed;
 	}
-	main {padding-top: 78px;}
+	#demo {
+	
+padding-top: 78px;}
 
 
   
