@@ -1,20 +1,91 @@
+* {
+	margin:0;
+	padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+header {
+	width:100%;
+}
 
-@media only screen and (max-width: 360px) {
+header nav {
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
-    header {position: absolute; width: 100%; height: 100px;}
-  .menuItem {font-size: 2px;}
-  .mapaR {width: 300px; width: 250px; margin-right: 90px;}
-  .formR {margin-right: 100px;}
-    .carouselR {margin-top: 1300px;}
-    .container {width: 100%;}
-    header {width: 100%; display: flex; flex-wrap: wrap; z-index: 0; padding: 0;}
-    .navNumero1 {width: 100%; display: flex;  }
-    .linksHtml {width: 100%; display:flex; flex-wrap: wrap;  }
-    .menuItem {color: black; display: flex;}
-    .artB {display: flex; flex-wrap: wrap;}
-    table { width: 50%; border-left: 0px; }
-    td, th { flex-direction:row; justify-content: flex-start;}
-    .imagenFacebook { width: 30px; height: 30px; display: inline-block; position: absolute; top: 10px; left: 290px}
-  .imagenInstagram { width: 30px; height: 30px; display: inline-block; position: absolute; top: 10px; left: 330px;}
-  footer {width: 100%; background-color: #333; height: 100%;}
+.menu_bar {
+	display:none;
+}
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {display:inline-block;
+	/* float:left; */
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:10px;
+}
+
+header nav ul li a:hover {display: block;
+	background: rgb(181, 111, 184) ;
+}
+
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+	main {padding-top: 78px;}
+
+  
+  .iBar {width: 30px; height: 30px; margin-left: 5px;}
+
+  
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(247, 243, 243, 0.3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		height:78x;
+		background:#ccc;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:rgb(216, 118, 216);
+		color:rgb(255, 255, 255);
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+
 }
